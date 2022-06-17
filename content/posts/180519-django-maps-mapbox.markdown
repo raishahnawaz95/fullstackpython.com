@@ -302,7 +302,7 @@ replace the `mapboxgl.accessToken` line with your own access token.
    <h1>Map time!</h1>
 ~~   <div id='map' width="100%" style='height:400px'></div>
 ~~   <script>
-~~    mapboxgl.accessToken = {{ mapbox_access_token }};
+~~    mapboxgl.accessToken = "{{ mapbox_access_token }}";
 ~~    var map = new mapboxgl.Map({
 ~~     container: 'map',
 ~~     style: 'mapbox://styles/mapbox/streets-v10'
@@ -364,7 +364,7 @@ highlighted lines shown below.
    <h1>Map time!</h1>
    <div id='map' width="100%" style='height:400px'></div>
    <script>
-    mapboxgl.accessToken = {{ mapbox_access_token }};
+    mapboxgl.accessToken = "{{ mapbox_access_token }}";
     var map = new mapboxgl.Map({
      container: 'map',
 ~~     style: 'mapbox://styles/mapbox/streets-v10',
@@ -409,7 +409,7 @@ and add `bearing: 180` as the last key-value pair in the configuration.
    <h1>Map time!</h1>
    <div id='map' width="100%" style='height:400px'></div>
    <script>
-    mapboxgl.accessToken = {{ mapbox_access_token }};
+    mapboxgl.accessToken = "{{ mapbox_access_token }}";
     var map = new mapboxgl.Map({
      container: 'map',
 ~~     style: 'mapbox://styles/mapbox/satellite-streets-v10',
